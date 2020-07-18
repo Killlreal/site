@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Movies</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="../assets/img/ico/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="../assets/img/ico/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="../assets/img/ico/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="../assets/img/ico/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="../assets/img/ico/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="../assets/img/ico/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="../assets/img/ico/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="../assets/img/ico/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../assets/img/ico/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="../assets/img/ico/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/img/ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="../assets/img/ico/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/img/ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../assets/img/ico/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="../assets/img/ico/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="/styles/page.css" />
+  </head>
+  <body>
+    <!-- Header start -->
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__wrapper">
+          <div class="header__logo">
+            <a href="#!" class="header__logo-link">
+              <img
+                src="../assets/img/logo_main.png"
+                width="82"
+                height="31"
+                alt="logo"
+                class="header__logo-pic"
+              />
+            </a>
+          </div>
+
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#" class="header__link">Darkside</a>
+              </li>
+              <li class="header__item">
+                <a href="#locations" class="header__link js-scroll"
+                  >Top movies</a
+                >
+              </li>
+              <li class="header__item">
+                <a href="#sign-in" class="header__link js-scroll">To top</a>
+              </li>
+            </ul>
+            <div class="header__nav-close">
+              <span class="header__nav-close-line"></span>
+              <span class="header__nav-close-line"></span>
+            </div>
+          </nav>
+          <div class="header__burger burger">
+            <span class="burger__line burger__line_first"></span>
+            <span class="burger__line burger__line_second"></span>
+            <span class="burger__line burger__line_third"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header end -->
+
+    <main class="main">
+      <!-- Intro start -->
+      <div class="intro" id="sign-in">
+        <div class="wrapper">
+          <h1 class="intro__title">
+            The Movies - the best choice
+          </h1>
+        </div>
+      </div>
+      <!-- Intro end -->
+
+      <!-- Decription start -->
+      <section class="benefits">
+        <div class="benefits__wrap">
+          <h2 class="benefits__title">
+            Description
+          </h2>
+          <div class="benefits__cards">
+            <div class="benefits__card">
+              <div class="benefits__card-pic">
+                <img
+                  src="../assets/img/svg/photograph.svg"
+                  alt="photograph"
+                  class="benefits__card-thumb hue-rotate"
+                />
+              </div>
+              <h3 class="benefits__card-title">
+                Avatar
+              </h3>
+              <img src="../assets/img/avatar.jpg" alt="avatar" />
+            </div>
+            <div class="benefits__card" itemtype="https://schema.org/Person">
+              <div class="benefits__card-pic">
+                <img
+                  src="../assets/img/svg/acting.svg"
+                  alt="About me"
+                  class="benefits__card-thumb"
+                  itemprop="author"
+                />
+              </div>
+              <h3 class="benefits__card-title">
+                Information
+              </h3>
+              <div class="benefits__card-desc">
+                <dl class="information_about">
+                  <dt itemprop="givenName">Имя</dt>
+                  <dd>Кирилл</dd>
+                  <dt itemprop="birthDate">Возраст</dt>
+                  <dd>23 года</dd>
+                  <dt itemprop="translator">Английский</dt>
+                  <dd>В1</dd>
+                </dl>
+                <p class="information" itemprop="description">
+                  <span class="aim">Цель</span> - начать карьеру джуниор
+                  разработчика в компании и дорасти до позиции мидл.
+                </p>
+                <p class="information">
+                  Ну а сегодня я буду вашим гидом в киноиндустрии :)
+                </p>
+              </div>
+            </div>
+            <div class="benefits__card">
+              <div class="benefits__card-pic">
+                <img
+                  src="../assets/img/svg/video-player.svg"
+                  alt="movies"
+                  class="benefits__card-thumb"
+                />
+              </div>
+              <h3 class="benefits__card-title">
+                My top
+              </h3>
+              <div class="benefits__card-desc">
+                <ul class="about_movies">
+                  <li><a href="#naruto" class="movies_link">Наруто</a></li>
+                  <li>
+                    <a href="#kingdom" class="movies_link"
+                      >Королевство полной луны</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#effect" class="movies_link">Эффект бабочки</a>
+                  </li>
+                  <li>
+                    <a href="#nobody" class="movies_link">Господин никто</a>
+                  </li>
+                  <li>
+                    <a href="#evil" class="movies_link">Зловещие мертвецы</a>
+                  </li>
+                  <li>
+                    <a href="#tomorrow" class="movies_link">Грань будущего</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Description end -->
+
+      <!-- Top start -->
+      <section class="top" id="locations">
+        <div class="wrapper-full">
+          <h2 class="top__title section-title">
+            Today top to watch
+          </h2>
+
+          <div class="top__cards" itemtype="https://schema.org/Movie">
+            <div class="top__card" id="naruto">
+              <div class="top__card-pic">
+                <img
+                  src="../assets/img/naruto.jpg"
+                  alt="naruto"
+                  class="top__card-thumb"
+                />
+                <div class="top__card-stats">
+                  <h3 class="top__card-title">
+                    Naruto
+                  </h3>
+                  <div class="top__card-likes">
+                    <span class="top__card-likes-value">
+                      700
+                    </span>
+                  </div>
+                  <div class="top__card-comments">
+                    <span class="top__card-comments-value">
+                      65
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <p class="top__card-desc" itemprop="description">
+                &laquo;Наруто&raquo;&nbsp;&mdash; аниме Масаси Кисимото
+                в&nbsp;жанре сёнэн. Главным её&nbsp;героем является Наруто
+                Удзумаки, шумный и&nbsp;непоседливый ниндзя-подросток, который
+                мечтает достичь всеобщего признания и&nbsp;стать
+                Хокагэ&nbsp;&mdash; главой своего селения и&nbsp;сильнейшим
+                ниндзя.
+              </p>
+              <a
+                href="https://narutoplanet.ru/anime-naruto-and-boruto/151-naruto-season-one"
+                target="_blanck"
+                class="top__card-more"
+                >watch</a
+              >
+            </div>
+
+            <div class="top__card">
+              <div class="top__card-pic" id="kingdom">
+                <img
+                  src="../assets/img/kingdom_2.jpg"
+                  alt="kingdom"
+                  class="top__card-thumb"
+                />
+                <div class="top__card-stats">
+                  <h3 class="top__card-title">
+                    Moonrise Kingdom
+                  </h3>
+                  <div class="top__card-likes">
+                    <span class="top__card-likes-value">
+                      555
+                    </span>
+                  </div>
+                  <div class="top__card-comments">
+                    <span class="top__card-comments-value">
+                      80
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <p class="top__card-desc" itemprop="description">
+                &laquo;Королевсто полной луны&raquo;&nbsp;&mdash; 60-е годы
+                XX&nbsp;века. Пара влюблённых подростков, живущих
+                на&nbsp;острове в&nbsp;Новой Англии, убегают из-под присмотра
+                взрослых. Сэм Шикаски&nbsp;&mdash; бойскаут, сирота,
+                от&nbsp;которого отказались приёмные родители, из-за своего
+                непростого характера ставший изгоем среди других бойскаутов,
+                и&nbsp;Сьюзи Бишоп&nbsp;&mdash; замкнутая двенадцатилетняя
+                неуравновешенная девочка, живущая мечтами о&nbsp;волшебных
+                мирах, мать которой изменяет мужу с&nbsp;местным шерифом.
+              </p>
+              <a
+                href="http://ae.lordfilms-s.pw/45224-film-korolevstvo-polnoj-luny-2012.html"
+                class="top__card-more"
+                target="_blanck"
+                >watch</a
+              >
+            </div>
+
+            <div class="top__card" id="effect">
+              <div class="top__card-pic">
+                <img
+                  src="../assets/img/effect_of.jpg"
+                  alt="Butterfly"
+                  class="top__card-thumb"
+                />
+                <div class="top__card-stats">
+                  <h3 class="top__card-title">
+                    The Butterfly Effect
+                  </h3>
+                  <div class="top__card-likes">
+                    <span class="top__card-likes-value">
+                      345
+                    </span>
+                  </div>
+                  <div class="top__card-comments">
+                    <span class="top__card-comments-value">
+                      78
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <p class="top__card-desc" itemprop="description">
+                &laquo;Эффект бабочки&raquo;&nbsp;&mdash; мальчик Эван перенял
+                от&nbsp;своего отца-психопата, ныне запертого в&nbsp;доме для
+                умалишённых, странную болезнь&nbsp;&mdash;
+                он&nbsp;не&nbsp;помнит некоторых эпизодов своей жизни, причем
+                в&nbsp;эти моменты происходили довольно странные,
+                а&nbsp;то&nbsp;и&nbsp;ужасные события. Возмужав и&nbsp;поступив
+                в&nbsp;колледж, Эван делает удивительное открытие. Читая
+                дневники, которые он&nbsp;писал в&nbsp;детстве по&nbsp;совету
+                врача, Эван может возвращаться в&nbsp;детство и&nbsp;своими
+                действиями менять будущее.
+              </p>
+              <a
+                href="http://ae.lordfilms-s.pw/33722-film-jeffekt-babochki-2003.html"
+                class="top__card-more"
+                target="_blanck"
+                >watch</a
+              >
+            </div>
+
+            <div class="top__card" id="nobody">
+              <div class="top__card-pic">
+                <img
+                  src="../assets/img/nobody.jpg"
+                  alt="nobody"
+                  class="top__card-thumb"
+                />
+                <div class="top__card-stats">
+                  <h3 class="top__card-title">
+                    Mr. Nobody
+                  </h3>
+                  <div class="top__card-likes">
+                    <span class="top__card-likes-value">
+                      734
+                    </span>
+                  </div>
+                  <div class="top__card-comments">
+                    <span class="top__card-comments-value">
+                      43
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <p class="top__card-desc" itemprop="description">
+                &laquo;Господин никто&raquo;&nbsp;&mdash; проснувшийся немощным
+                стариком Немо Никто оказывается последним смертным
+                в&nbsp;гротескном будущем. Все люди уже давно бессмертны
+                и&nbsp;с&nbsp;удовольствием наблюдают за&nbsp;телешоу, где
+                главная звезда&nbsp;&mdash; дряхлый и&nbsp;безумный старик Немо,
+                доживающий свои последние дни. Накануне конца к&nbsp;нему
+                приходит журналист, и&nbsp;Немо рассказывает ему свою историю
+                перескакивая из&nbsp;одной жизни в&nbsp;другую, параллельную,
+                несколько раз за&nbsp;рассказ успев умереть.
+              </p>
+              <a
+                href="http://ae.lordfilms-s.pw/35978-film-gospodin-nikto-2009.html"
+                class="top__card-more"
+                target="_blanck"
+                >watch</a
+              >
+            </div>
+
+            <div class="top__card" id="evil">
+              <div class="top__card-pic">
+                <img
+                  src="../assets/img/evil.jpg"
+                  alt="evil"
+                  class="top__card-thumb"
+                />
+                <div class="top__card-stats">
+                  <h3 class="top__card-title">
+                    The Evil Dead
+                  </h3>
+                  <div class="top__card-likes">
+                    <span class="top__card-likes-value">
+                      231
+                    </span>
+                  </div>
+                  <div class="top__card-comments">
+                    <span class="top__card-comments-value">
+                      90
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <p class="top__card-desc" itemprop="description">
+                &laquo;Зловещие мертвецы&raquo;&nbsp;&mdash; молодые люди
+                снимают на&nbsp;выходные загородный дом. Находится
+                он&nbsp;в&nbsp;непролазной глуши, выглядит мрачно,
+                а&nbsp;кругом&nbsp;&mdash; ни&nbsp;души. Аренда стоит копейки,
+                но&nbsp;не&nbsp;потому, что он&nbsp;того и&nbsp;гляди
+                развалится... Раньше здесь жил археолог, после которого
+                в&nbsp;подвале остались различные мистические артефакты.
+                Например, книга мертвых, предметы неизвестных магических культов
+                и&nbsp;магнитофон с&nbsp;записью заклинания на&nbsp;непонятном
+                языке. Ребята запись прослушали... С&nbsp;наступлением темноты
+                им&nbsp;предстоит встретиться с&nbsp;духами, которых они
+                разбудили!
+              </p>
+              <a
+                href="http://ae.lordfilms-s.pw/34796-film-zloveschie-mertvecy-1981.html"
+                class="top__card-more"
+                target="_blanck"
+                >watch</a
+              >
+            </div>
+
+            <div class="top__card" id="tomorrow">
+              <div class="top__card-pic">
+                <img
+                  src="../assets/img/tomorrow.jpeg"
+                  alt="tomorrow"
+                  class="top__card-thumb"
+                />
+                <div class="top__card-stats">
+                  <h3 class="top__card-title">
+                    Edge of Tomorrow
+                  </h3>
+                  <div class="top__card-likes">
+                    <span class="top__card-likes-value">
+                      901
+                    </span>
+                  </div>
+                  <div class="top__card-comments">
+                    <span class="top__card-comments-value">
+                      123
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <p class="top__card-desc" itemprop="description">
+                &laquo;Грань будущего&raquo;&nbsp;&mdash; в&nbsp;недалёком
+                будущем раса инопланетян вторгается на&nbsp;Землю. Никакая армия
+                в&nbsp;мире не&nbsp;может противостоять&nbsp;им. Майор Уильям
+                Кейдж умирает в&nbsp;бою, но&nbsp;случается
+                невозможное&nbsp;&mdash; он&nbsp;оказывается во&nbsp;временной
+                петле. Раз за&nbsp;разом он&nbsp;попадает в&nbsp;один
+                и&nbsp;тот&nbsp;же бой, сражается и&nbsp;умирает... снова
+                и&nbsp;снова. И&nbsp;каждое повторяющееся сражение приближает
+                его к&nbsp;разгадке того, как победить врага.
+              </p>
+              <a
+                href="http://ae.lordfilms-s.pw/30908-film-gran-buduschego-2014.html"
+                class="top__card-more"
+                target="_blanck"
+                >watch</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Top end -->
+    </main>
+
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__item">
+          <div class="footer__logo">
+            <img
+              src="../assets/img/logo_main.png"
+              width="182"
+              height="61"
+              alt="logo"
+              class="footer__logo-pic"
+            />
+          </div>
+          <nav class="footer__nav">
+            <ul class="footerm__menu" itemtype="https://ruschema.org/Person">
+              <li class="footer__menu-item">
+                <h3 class="footer__menu-title">Social Media</h3>
+              </li>
+              <li class="footer__menu-item" itemprop="workLocation">
+                <a
+                  href="https://vk.com/notrealllife"
+                  target="_blanck"
+                  class="footer__menu-link"
+                  >Facebook</a
+                >
+              </li>
+              <li class="footer__menu-item" itemprop="workLocation">
+                <a
+                  href="https://vk.com/notrealllife"
+                  target="_blanck"
+                  class="footer__menu-link"
+                  >Vk</a
+                >
+              </li>
+              <li class="footer__menu-item" itemprop="workLocation">
+                <a
+                  href="https://vk.com/notrealllife"
+                  target="_blanck"
+                  class="footer__menu-link"
+                  >Teleram</a
+                >
+              </li>
+              <li class="footer__menu-item" itemprop="workLocation">
+                <a
+                  href="https://vk.com/notrealllife"
+                  target="_blanck"
+                  class="footer__menu-link"
+                  >Whatsapp</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../scripts/script-es6.js"></script>
+  </body>
+</html>
